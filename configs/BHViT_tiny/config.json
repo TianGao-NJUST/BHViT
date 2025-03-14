@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "ViTForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "drop_path": 0.1,
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "layer_norm_eps": 1e-05,
+  "model_type": "vit",
+  "hidden_size": [64, 128, 256, 512],
+  "depths": [2, 2, 6, 2],
+  "num_attention_heads": [1, 1, 4, 8],
+  "num_hidden_layersA": 4,
+  "num_hidden_layersB": 8,
+  "intermediate_size": [512, 1024, 1024, 2048],
+  "num_channels": 3,
+  "patch_size": 4,
+  "qkv_bias": true,
+  "transformers_version": "4.20.1"
+}
